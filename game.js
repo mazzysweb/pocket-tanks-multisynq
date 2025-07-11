@@ -1,7 +1,7 @@
 ```javascript
 // Initialize Multisynq
 const synq = new Multisynq({
-    apiKey: 'YOUR_API_KEY', // Replace with your Multisynq API key from multisynq.io
+    apiKey: '2fUFRvUaQ7BJNKclDdquo7TqiOJPLys20C6r3cCEer', // Replace with your Multisynq API key from multisynq.io
     appId: 'pocket-tanks'
 });
 
