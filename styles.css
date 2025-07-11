@@ -1,0 +1,32 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#game-canvas {
+    border: 2px solid black;
+}
+
+#controls {
+    margin-top: 10px;
+}
+
+#controls label {
+    margin: 0 10px;
+}
+
+#fire-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+```
