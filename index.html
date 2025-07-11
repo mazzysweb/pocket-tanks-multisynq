@@ -1,0 +1,25 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Tanks with Multisynq</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/multisynq-js-sdk@latest"></script>
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+        <div id="controls">
+            <h2 id="player-turn">Waiting for players...</h2>
+            <label>Angle: <input type="number" id="angle" min="0" max="90" value="45"></label>
+            <label>Power: <input type="number" id="power" min="10" max="100" value="50"></label>
+            <button id="fire-btn">Fire</button>
+            <p id="status">Connecting to Multisynq...</p>
+        </div>
+    </div>
+</body>
+</html>
+```
